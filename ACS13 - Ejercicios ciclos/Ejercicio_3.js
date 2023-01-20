@@ -16,3 +16,11 @@ salida:
 5
 
 6 */
+
+let dato=prompt ("Ingrese un numero");
+let i = 1;
+
+while(i<dato){
+   console.log(i);
+   i++;
+}

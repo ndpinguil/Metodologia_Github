@@ -8,3 +8,22 @@ Salida:
  73 aprueba  
 
  70 aprueba   */
+ 
+ let ratings =[10,50,93,95,100];
+ const min= 70;
+ 
+
+ for(let i = 0; i<ratings.length; i++)
+ {
+    if(ratings[i] >= min)
+    {
+        console.log(ratings[i], "Aprueba");
+    }
+    else
+    {
+        console.log(ratings[i],"Reprueba");
+    }
+ }
+
+ 
+ 
